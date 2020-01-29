@@ -3,11 +3,6 @@
 let Twitter = require('twitter');
 let chalk = require('chalk')
 
-let TWITTER_CONSUMER_KEY = 'jtjtOJt09LmbXgGYKTJe7z6nJ';
-let TWITTER_CONSUMER_SECRET = 'zqtNjaibzrz4eKLCfnIpq8OZDjmoVutJfFmgwiyZ12rjuRroHB';
-let TWITTER_ACCESS_TOKEN_KEY = '1108961203932389377-gYNQHkh97cxPloIeSBkNhMQKqW42qf';
-let TWITTER_ACCESS_TOKEN_SECRET = 'XXd8uZzJ9rjBrDLBkENGZ9zjY0TAJIm1UbXkKU0ewyxhy'
-
 let T = new Twitter({
   consumer_key: TWITTER_CONSUMER_KEY,
   consumer_secret: TWITTER_CONSUMER_SECRET,
